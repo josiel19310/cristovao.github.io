@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <link rel="stylesheet" href="./style.css">
+ </head>
+ <body>
+    <header>
+        <img id="logo" src="./imagem/logo RC.jpg">
+        <nav>
+            <ul>
+                <a href="./INDEX.HTML">
+                  <li>home</li>
+                </a>
+                <a href="./contato.html">
+                    <li>contato</li>
+                </a>
+                <a href="./fotos.html">
+                    <li>fotos</li>
+                </a>
+                <a href="./comentarios.html">
+                   <li>produtos</li>
+                </a>
+              
+            </ul>
+        </nav>
+    </header>
+    <div class="carousel-container">
+        <div class="carousel">
+            
+           
+    <div class="carousel-item">
+                <img src="./imagem/9.webp" alt="Slide 1">
+            </div>
+            <div class="carousel-item">
+                <img src="./imagem/11.webp" alt="Slide 2">
+            </div>
+            <div class="carousel-item">
+                <img src="https://via.placeholder.com/800x400" alt="Slide 3">
+            </div>
+        </div>
+        <button class="carousel-btn carousel-btn-left" onclick="prevSlide()">‹</button>
+        <button class="carousel-btn carousel-btn-right" onclick="nextSlide()">›</button>
+    </div>
+    
+    <div id="banner"></div>
+    <div id="trailer-container">
+        <div class="content">
+            <video controls class="trailer">
+                <source src="./treiler2.mp4" type="video/mp4">
+                seu navegador não possui suporte para video
+            </video>
+            <div id="sinopse">
+                <p class="description">
+                    Após dois anos espreitando as ruas como Batman, Bruce
+                    Wayne se encontra nas profundezas mais sombrias de
+                    Gotham City. Com poucos aliados confiáveis, o vigilante
+                    solitário se estabelece como a personificação da vingança
+                    para a população.
+
+                </p>
+                <button class="button">comprar ingresso</button>
+
+            </div>
+
+        </div>
+
+    </div>
+    <div class="actor-cards-container">
+        <div class="cards-content">
+            <div class="card banner-1">Compativel</div>
+            <div class="card banner-2">Escritorio</div>
+            <div class="card banner-3">Area de Lazer</div>
+            <div class="card banner-4">Area de Lazer</div>
+            <div class="card banner-5">Area de Lazer</div>
+            <div class="card banner-6">Area de Lazer</div>
+            
+            
+
+        </div>
+        
+
+    </div>
+
+    <nav class="footer-navigation">
+        <ul class="footer-list">
+            
+            <a href="./INDEX.HTML">
+                <li>home</li>
+            </a>
+
+            <a href="./contato.html" >
+             <li>contato</li>
+             
+
+            </a>
+            <a href="./fotos.html">
+                <li>fotos</li>
+
+               
+
+            </a>
+            <a href="./comentarios.html">
+                <li>comentarios</li>
+
+            </a>
+            
+        </ul>
+    </nav>
+    <footer>
+        <img style="object-fit: contain;" id="logo" src="./imagem/logo RC.jpg"/>
+        <span>todos os direito reservados ©</span>
+        <span>desenvolvido por: Josiel Martins</span>
+        
+
+       
+    </footer>             
+   
+
+            
+
+    <script src="script.js"></script> 
+ </body>
+</html>
